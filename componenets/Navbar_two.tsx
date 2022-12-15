@@ -3,6 +3,7 @@ import styles from '../styles/cpnstyles/Navbar_two.module.css'
 import { useState, useEffect } from "react";
 import { useScroll, AnimatePresence } from "framer-motion";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Navbar_two() {
     let [before, setBefore] = useState(0);
@@ -32,7 +33,9 @@ export default function Navbar_two() {
                     className={styles.container} >
 
                     <motion.div className={styles.left}>
-                        <p>ELEAR</p>
+                        <p>
+                        ELEAR
+                        </p>
                     </motion.div>
                     <motion.div className={styles.right}>
                         <p><Link href={'/'} >HOME</Link></p>

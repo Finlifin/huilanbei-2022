@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="2in"
+   height="2in"
+   viewBox="0 0 192 192"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   sodipodi:docname="Nenya-lang-logo.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="in"
+     showgrid="false"
+     inkscape:zoom="3.4766083"
+     inkscape:cx="114.47939"
+     inkscape:cy="111.74684"
+     inkscape:window-width="1777"
+     inkscape:window-height="1047"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       style="font-size:48px;font-family:Poppins;-inkscape-font-specification:'Poppins, Normal';fill:#00ffff;stroke-width:9.6"
+       x="204.29619"
+       y="96.270645"
+       id="text1389"><tspan
+         sodipodi:role="line"
+         id="tspan1387"
+         x="204.29619"
+         y="96.270645">n</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:127.309px;font-family:Poppins;-inkscape-font-specification:'Poppins, Normal';fill:#002032;stroke-width:25.4618;fill-opacity:1"
+       x="50.413139"
+       y="142.42583"
+       id="text1393"
+       transform="scale(0.98581201,1.0143922)"><tspan
+         sodipodi:role="line"
+         id="tspan1391"
+         x="50.413139"
+         y="142.42583"
+         style="stroke-width:25.4618;fill:#002032;fill-opacity:1">N</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:48px;font-family:Poppins;-inkscape-font-specification:'Poppins, Normal';fill:#00ffff;stroke-width:9.6"
+       x="205.20854"
+       y="171.382"
+       id="text1447"><tspan
+         sodipodi:role="line"
+         id="tspan1445"
+         x="205.20854"
+         y="171.382">e</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:96.3104px;font-family:Poppins;-inkscape-font-specification:'Poppins, Normal';fill:#002032;stroke-width:19.2621;fill-opacity:1"
+       x="64.386002"
+       y="122.4763"
+       id="text1451"
+       transform="scale(1.2771134,0.78301582)"><tspan
+         sodipodi:role="line"
+         id="tspan1449"
+         x="64.386002"
+         y="122.4763"
+         style="stroke-width:19.2621;fill:#002032;fill-opacity:1">y</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:48px;font-family:Poppins;-inkscape-font-specification:'Poppins, Normal';fill:#00ffff;stroke-width:9.6"
+       x="203.94"
+       y="132.16568"
+       id="text1455"><tspan
+         sodipodi:role="line"
+         id="tspan1453"
+         x="203.94"
+         y="132.16568">a</tspan></text>
+  </g>
+</svg>

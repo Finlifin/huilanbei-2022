@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="2in"
+   height="2in"
+   viewBox="0 0 192 192"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   sodipodi:docname="Vilya-lang-logo.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="in"
+     showgrid="false"
+     inkscape:zoom="3.4766083"
+     inkscape:cx="121.67031"
+     inkscape:cy="82.120266"
+     inkscape:window-width="1777"
+     inkscape:window-height="1047"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer2" />
+  <defs
+     id="defs2">
+    <rect
+       x="30.386116"
+       y="30.654652"
+       width="42.853368"
+       height="85.119102"
+       id="rect268" />
+  </defs>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Layer 2"
+     style="fill:#000000">
+    <rect
+       style="fill:#002032;stroke-width:9.6;stroke-dasharray:none;fill-opacity:1"
+       id="rect1881-6"
+       width="160.75406"
+       height="0.23145762"
+       x="15.708219"
+       y="127.80618" />
+    <rect
+       style="opacity:1;fill:#002032;stroke-width:9.6;stroke-dasharray:none;fill-opacity:1"
+       id="rect1881"
+       width="160.75406"
+       height="0.23145762"
+       x="15.146991"
+       y="64.700272" />
+  </g>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       style="font-size:48px;font-family:Poppins;-inkscape-font-specification:'Poppins, Normal';white-space:pre;inline-size:37.188;display:inline;fill:#002032;fill-opacity:1"
+       x="44.584805"
+       y="60.977848"
+       id="text324"
+       transform="matrix(1.8978059,0,0,1.637671,11.874894,23.588599)"><tspan
+         x="44.584805"
+         y="60.977848"
+         id="tspan839">V</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:44.5641px;font-family:Poppins;-inkscape-font-specification:'Poppins, Normal';fill:#002032;stroke-width:0.92842;fill-opacity:1"
+       x="78.732941"
+       y="122.7856"
+       id="text332"
+       transform="scale(0.99270639,1.0073472)"><tspan
+         sodipodi:role="line"
+         id="tspan330"
+         x="78.732941"
+         y="122.7856"
+         style="stroke-width:0.92842;fill:#002032;fill-opacity:1">i</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:67.8562px;font-family:Poppins;-inkscape-font-specification:'Poppins, Normal';fill:#002032;stroke-width:1.41367;fill-opacity:1"
+       x="171.17577"
+       y="112.60851"
+       id="text336"
+       transform="matrix(0.91342479,0.00169452,-0.00367035,1.0947741,0,0)"><tspan
+         sodipodi:role="line"
+         id="tspan334"
+         x="171.17577"
+         y="112.60851"
+         style="stroke-width:1.41367;fill:#002032;fill-opacity:1">l</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:101.488px;font-family:Poppins;-inkscape-font-specification:'Poppins, Normal';fill:#002032;stroke-width:2.11434;fill-opacity:1"
+       x="72.956879"
+       y="129.9455"
+       id="text340"
+       transform="scale(1.0684903,0.93589994)"><tspan
+         sodipodi:role="line"
+         id="tspan338"
+         x="72.956879"
+         y="129.9455"
+         style="stroke-width:2.11434;fill:#002032;fill-opacity:1">y</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:96.9985px;font-family:Poppins;-inkscape-font-specification:'Poppins, Normal';fill:#002032;stroke-width:2.02079;fill-opacity:1"
+       x="16.042318"
+       y="121.70422"
+       id="text344"
+       transform="scale(0.98460133,1.0156395)"><tspan
+         sodipodi:role="line"
+         id="tspan342"
+         x="16.042318"
+         y="121.70422"
+         style="stroke-width:2.02079;fill:#002032;fill-opacity:1">a</tspan></text>
+  </g>
+</svg>

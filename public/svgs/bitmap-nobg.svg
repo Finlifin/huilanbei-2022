@@ -10,6 +10,8 @@
    inkscape:export-filename="bitmap.svg"
    inkscape:export-xdpi="1"
    inkscape:export-ydpi="1"
+   sodipodi:docname="bitmap-nobg.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -24,20 +26,21 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#505050"
      inkscape:document-units="in"
-     showgrid="false" />
+     showgrid="false"
+     inkscape:zoom="1.0685774"
+     inkscape:cx="134.7586"
+     inkscape:cy="110.8951"
+     inkscape:window-width="1777"
+     inkscape:window-height="1047"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg5" />
   <defs
      id="defs2" />
-  <rect
-     style="fill:#280b0b;fill-opacity:1;stroke-width:1881.6;stroke-dasharray:none"
-     id="rect2298"
-     width="268.58524"
-     height="220.85439"
-     x="0"
-     y="0"
-     inkscape:label="rect2298" />
   <text
      xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:168.434px;font-family:accent;-inkscape-font-specification:'accent, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;stroke-width:33.6869"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:168.434px;font-family:accent;-inkscape-font-specification:'accent, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#002032;stroke-width:33.6869;fill-opacity:1"
      x="61.172424"
      y="173.8147"
      id="text1040"><tspan
@@ -45,10 +48,10 @@
        x="61.172424"
        y="173.8147"
        id="tspan1042"
-       style="stroke-width:33.6869">E</tspan></text>
+       style="stroke-width:33.6869;fill:#002032;fill-opacity:1">E</tspan></text>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:168.434px;font-family:accent;-inkscape-font-specification:'accent, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;stroke-width:33.6869"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:168.434px;font-family:accent;-inkscape-font-specification:'accent, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#002032;stroke-width:33.6869;fill-opacity:1"
      x="102.27707"
      y="179.00381"
      id="text1040-4"><tspan
@@ -56,5 +59,5 @@
        x="102.27707"
        y="179.00381"
        id="tspan1042-5"
-       style="stroke-width:33.6869">E</tspan></text>
+       style="stroke-width:33.6869;fill:#002032;fill-opacity:1">E</tspan></text>
 </svg>
