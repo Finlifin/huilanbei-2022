@@ -7,7 +7,7 @@ import { AnimatePresence } from "framer-motion";
 import { useState ,useEffect} from "react";
 
 
-const Topic = (props: { title: String, auther: String, date: String }) => {
+const Topic = (props: { title: string, auther: string, date: string }) => {
     let [wrapped, setWrapped] = useState(false);
 
     return (
@@ -40,7 +40,7 @@ function Forum() {
             </motion.div>
 
             <p className={styles.focus}>
-                *Here's the forum of the participants of the projects of Elear. If you are not familiar with here, take <span> Elear User Formula</span> and <span>Elear Forum Guide</span> first.*
+                *Here‘s the forum of the participants of the projects of Elear. If you are not familiar with here, take <span> Elear User Formula</span> and <span>Elear Forum Guide</span> first.*
             </p>
 
             <div className={styles.nav}>

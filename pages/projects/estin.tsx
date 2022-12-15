@@ -19,7 +19,7 @@ const BoardOne = () => {
     )
 }
 
-const AppleButton = (props: { text: String }) => {
+const AppleButton = (props: { text: string }) => {
     return (
         <motion.div
 

@@ -19,7 +19,7 @@ const BoardOne = () => {
     )
 }
 
-const AppleButton = (props: { text: String }) => {
+const AppleButton = (props: { text: string }) => {
     return (
         <motion.div
 
@@ -84,7 +84,7 @@ function Egace() {
 
             <div className="separate"></div>
             <motion.div className='normalPara' style={{ textAlign: 'end', paddingRight: '4vmin', marginLeft: '38vmin' }}>
-                Egace is the default desktop environment on Olomi OS, yet not only for Olomi.Actaully you can run it on almost every POSIX system. It's lite and fast,and provide beautiful graphics and efficient interfaces for operaters.
+                Egace is the default desktop environment on Olomi OS, yet not only for Olomi.Actaully you can run it on almost every POSIX system. It is lite and fast,and provide beautiful graphics and efficient interfaces for operaters.
             </motion.div>
             <div className='separate'></div>
             {/* <div
@@ -97,7 +97,7 @@ function Egace() {
             {/* <div className='separate'></div> */}
             <div
                 style={{ textAlign: 'center', fontSize: '3vmax', fontFamily: 'Poppins', padding: '6vmin' }}
-            >How's It Looks Like?</div>
+            >How‘s It Looks Like?</div>
             <div className='separate'></div>
             <p className='normalPara' style={{ margin: '0 10vmin 0 10vmin' }}>
                 <h3>Simple and Easy to Use</h3>

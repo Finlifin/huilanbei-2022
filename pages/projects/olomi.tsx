@@ -19,7 +19,7 @@ const BoardOne = () => {
     )
 }
 
-const AppleButton = (props: { text: String }) => {
+const AppleButton = (props: { text: string }) => {
     return (
         <motion.div
 
@@ -93,16 +93,16 @@ function Olomi() {
             <div className='separate'></div>
             <div
                 style={{ textAlign: 'center', fontSize: '3vw', fontFamily: 'Poppins', padding: '6vmin' }}
-            >Let's consider 3 existing projects.</div>
+            >Let‘s consider 3 existing projects.</div>
             <ul>
                 <li>LINUX
                     <p>Linux runs the world, and boots on everything from high performance servers to tiny embedded devices. Indeed, many Redox community members run Linux as their main workstations. However, Linux is not an ideal platform for new innovation in OS development.</p>
                 </li>
                 <li>BSD
-                    <p>It is no secret that we're more in favor of BSD. The BSD community has led the way in many innovations in the past 2 decades. Things like jails and ZFS yield more reliable systems, and other operating systems are still catching up.</p>
+                    <p>It is no secret that we‘re more in favor of BSD. The BSD community has led the way in many innovations in the past 2 decades. Things like jails and ZFS yield more reliable systems, and other operating systems are still catching up.</p>
                 </li>
                 <li>MINIX
-                    <p>And what about MINIX? Its microkernel design is a big influence on the Redox project, especially for reasons like reliability. MINIX is the most in line with Redox's philosophy. It has a similar design, and a similar license.
+                    <p>And what about MINIX? Its microkernel design is a big influence on the Redox project, especially for reasons like reliability. MINIX is the most in line with Redox‘s philosophy. It has a similar design, and a similar license.
 
                     </p>
                 </li>

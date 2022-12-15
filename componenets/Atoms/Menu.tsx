@@ -5,9 +5,9 @@ import closeIcon from "../../public/x.svg"
 import styles from '../../styles/cpnstyles/Menu.module.css'
 import { useState, forwardRef, useImperativeHandle, useEffect, useContext } from 'react'
 
-let Item = (props: { name: String; to: String }) => {
+let Item = (props: { name: string; to: string }) => {
     return (
-        <Link href={props.to}><div className={styles.item}>{props.name}</div></Link>
+        <Link href={props.to as string}><div className={styles.item}>{props.name}</div></Link>
     )
 }
 

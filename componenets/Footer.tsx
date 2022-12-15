@@ -2,7 +2,7 @@ import styles from '../styles/cpnstyles/Footer.module.css'
 import { motion } from 'framer-motion'
 import Link from 'next/link';
 
-function Footer(props: { height: String, onManatain: String }) {
+function Footer(props: { height: string, onManatain: string }) {
     return (
         <div className={styles.container} style={{ height: props.height, scrollSnapAlign: props.onManatain }}>
             <div className={styles.sub}>

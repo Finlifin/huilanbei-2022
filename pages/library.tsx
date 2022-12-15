@@ -5,7 +5,7 @@ import Searchline from "../componenets/Searchline"
 import { motion } from "framer-motion"
 import { useEffect } from "react"
 
-function Flyleaf(props: { title: String, intro: String }) {
+function Flyleaf(props: { title: string, intro: string }) {
     return (
         <motion.div
             transition={{ duration: .01, ease: 'easeOut', type: 'tween' }}

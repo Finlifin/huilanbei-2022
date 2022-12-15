@@ -1,11 +1,10 @@
 import { Url } from 'url'
 import styles from '../../styles/cpnstyles/Postcard.module.css'
 import Image from 'next/image';
-import Abutton from './Abutton';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
 
-export default function Postcard(props: { logo: String; name: String; itd: String; to: String }) {
+export default function Postcard(props: { logo: string; name: string; itd: string; to: string }) {
     return (
         <motion.div
             initial={{ opacity: 0, y: '30vh', scaleY: 1.4}}
@@ -15,15 +14,15 @@ export default function Postcard(props: { logo: String; name: String; itd: Strin
             transition={{ type: 'tween', duration: .6 }}
             className={styles.container}>
             <p>
-                <p><Link href={props.to} >{props.name}</Link></p>
+                <p><Link href={props.to as string} >{props.name}</Link></p>
                 <motion.div
                     whileHover={{ x: 20 }}
                 >
-                    <Image src={props.logo} width={128} height={128} alt="" className={styles.logo} />
+                    <Image src={props.logo as string} width={128} height={128} alt="" className={styles.logo} />
                 </motion.div>
                 <div className={styles.introduction}>{props.itd}</div>
             </p>
-            <div className={styles.right}><Image src={props.logo} width={128} height={128} alt="" className={styles.funny} /></div>
+            <div className={styles.right}><Image src={props.logo as string} width={128} height={128} alt="" className={styles.funny} /></div>
 
         </motion.div>
     )

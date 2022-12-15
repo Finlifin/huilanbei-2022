@@ -9,7 +9,7 @@ import { useEffect } from "react";
 
 
 
-const AppleButton = (props: { text: String }) => {
+const AppleButton = (props: { text: string }) => {
     return (
         <motion.div
 
@@ -38,7 +38,7 @@ const AppleButton = (props: { text: String }) => {
 
 
 
-const Page = (props: { img: String, title: String, text: String }) => {
+const Page = (props: { img: string, title: string, text: string }) => {
     return (<motion.div className={styles.page__container}>
         <motion.div className={styles.page__left}>
             <h1>{props.title}</h1>

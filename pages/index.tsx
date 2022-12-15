@@ -39,7 +39,7 @@ export default function Home() {
       <DecorationLine width={'40vw'} delay={.3} />
       <Post h="A community of artists" to={'/'} intro="We are always trying to contribute more for the nature and humanity,in many deferent approaches.Join us and see that you make it as well." img="/welcome" />
       <div className={styles.para}>Get to know what we are working on now</div>
-      <div className="comment">  *Notice that almost all of them are software engineers,since most of us are familiar with open-source collboraion.It's esae to work together on the Inernet.*</div>
+      <div className="comment">  *Notice that almost all of them are software engineers,since most of us are familiar with open-source collboraion.It‘s esae to work together on the Inernet.*</div>
       <Whiteboard />
       <Link href={'/projects'}><div className={styles.viewall} >veiw all projects</div></Link>
       <Footer height={'60vh'} onManatain={'none'} />

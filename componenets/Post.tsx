@@ -4,7 +4,7 @@ import Link from "next/link";
 import styles from '../styles/cpnstyles/Post.module.css'
 import DecorationLine from "./Atoms/DecorationLine";
 
-function Post(props: { to: String, h: String, img: String, intro: String }) {
+function Post(props: { to: string, h: string, img: string, intro: string }) {
     let mainVariant = {
         hidden: {
             y: "5vw",
@@ -31,7 +31,7 @@ function Post(props: { to: String, h: String, img: String, intro: String }) {
                 // whileHover={{ scale: 1.1 }}
                 // transition={{ type: 'tween', duration: .4, ease: 'easeOut' }}
                 className={styles.img}
-            ><Image src={props.img} layout='responsive' width={910} height={1250} quality={100} /></motion.div>
+            ><Image src={props.img} layout='responsive' width={910} height={1250} quality={100} alt="" /></motion.div>
             <motion.div className={styles.right}>
                 <motion.h1><Link href={props.to}>{props.h}</Link></motion.h1>
                 <DecorationLine width={'60%'} delay={.3} />

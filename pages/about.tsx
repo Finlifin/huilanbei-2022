@@ -1,16 +1,16 @@
-import { motion } from 'framer-motion'
+import { CustomValueType, motion, MotionValue } from 'framer-motion'
 import styles from '../styles/pagestyles/About.module.css'
 import Footer from '../componenets/Footer'
 import Image from 'next/image'
 import { useEffect } from 'react'
 
-function Para(props: { text: String, direction: String, textalign: String }) {
+function Para(props: { text: string, direction: string, textalign: string }) {
     return (
         <motion.div className={styles.para__container} style={{ justifyContent: props.direction }}>
             <motion.div
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
-                className={styles.para__main} style={{ textAlign: props.textalign }}>{props.text}</motion.div>
+                className={styles.para__main} style={{ textAlign: props.textalign as unknown as MotionValue<string> }}>{props.text}</motion.div>
         </motion.div>
     )
 }

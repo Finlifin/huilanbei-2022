@@ -1,6 +1,6 @@
 import styles from '../../styles/cpnstyles/Space.module.css'
 
-export default function Space(props:{s1:String;s2:String;name:String}){
+export default function Space(props:{s1:string;s2:string;name:string}){
     return(
         <div className={styles.space}>
             <div className={styles.slogan}>{props.s1}</div>
