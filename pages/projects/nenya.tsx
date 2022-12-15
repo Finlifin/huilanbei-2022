@@ -2,6 +2,7 @@ import styles from '../../styles/pagestyles/Nenya.module.css'
 import { motion } from 'framer-motion'
 import Footer from '../../componenets/Footer';
 import Image from 'next/image';
+import { useEffect } from 'react';
 
 const BoardOne = () => {
     return (
@@ -69,6 +70,10 @@ const Foo = () => {
 }
 
 function Nenya() {
+
+    useEffect(() => {
+        document.title = "Elear | Nenya";
+    }, []);
     return (
         <motion.div className={styles.container}>
             <div className={styles.background}>

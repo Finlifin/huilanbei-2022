@@ -8,9 +8,13 @@ import Post from '../componenets/Post'
 import DecorationLine from '../componenets/Atoms/DecorationLine'
 import Navbar from '../componenets/Navbar'
 import Footer from '../componenets/Footer'
+import { useEffect } from 'react'
 
 export default function Home() {
 
+  useEffect(()=>{
+    document.title= "Elear | Home";
+  },[]);
   return (
     <div className={styles.container}>
       <motion.div

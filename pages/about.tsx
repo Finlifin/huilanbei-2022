@@ -2,6 +2,7 @@ import { motion } from 'framer-motion'
 import styles from '../styles/pagestyles/About.module.css'
 import Footer from '../componenets/Footer'
 import Image from 'next/image'
+import { useEffect } from 'react'
 
 function Para(props: { text: String, direction: String, textalign: String }) {
     return (
@@ -16,6 +17,10 @@ function Para(props: { text: String, direction: String, textalign: String }) {
 
 
 export default function About() {
+
+  useEffect(()=>{
+    document.title= "Elear | About";
+  },[]);
     return (
         <div className={styles.container}>
             <div className={styles.background}>

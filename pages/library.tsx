@@ -3,6 +3,7 @@ import Image from "next/image"
 import styles from "../styles/pagestyles/Library.module.css"
 import Searchline from "../componenets/Searchline"
 import { motion } from "framer-motion"
+import { useEffect } from "react"
 
 function Flyleaf(props: { title: String, intro: String }) {
     return (
@@ -17,6 +18,10 @@ function Flyleaf(props: { title: String, intro: String }) {
 }
 
 export default function Library() {
+
+    useEffect(() => {
+        document.title = "Elear | Library";
+    }, []);
     return (
         <div className={styles.container}>
             <div className={styles.background}>

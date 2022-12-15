@@ -9,6 +9,11 @@ export default function App({ Component, pageProps }: AppProps) {
   let [isHere, setIsHere] = useState(true);
 
   const [showChild, setShowChild] = useState(false);
+
+  useEffect(()=>{
+    document.title= "Elear";
+  },[]);
+
   useEffect(() => {
     setShowChild(true);
   }, []);

@@ -4,7 +4,7 @@ import styles from '../styles/pagestyles/Forum.module.css'
 import Image from "next/image";
 import Searchline from '../componenets/Searchline'
 import { AnimatePresence } from "framer-motion";
-import { useState } from "react";
+import { useState ,useEffect} from "react";
 
 
 const Topic = (props: { title: String, auther: String, date: String }) => {
@@ -22,6 +22,10 @@ const Topic = (props: { title: String, auther: String, date: String }) => {
 
 function Forum() {
     function login() { };
+    
+  useEffect(()=>{
+    document.title= "Elear | Forum";
+  },[]);
     return (
         <motion.div className={styles.container}>
             <motion.div className={styles.background}>

@@ -4,6 +4,7 @@ import Image from "next/image";
 import Button from "../../componenets/Atoms/Button";
 import DecorationLine from "../../componenets/Atoms/DecorationLine";
 import Footer from "../../componenets/Footer";
+import { useEffect } from "react";
 
 
 
@@ -55,6 +56,10 @@ const Page = (props: { img: String, title: String, text: String }) => {
 export default function Vilya() {
     const sessionVariant = {};
 
+
+    useEffect(() => {
+        document.title = "Elear | Vilya";
+    }, []);
     return (
         <motion.div className={styles.container} style={{ scrollSnapType: 'y mandatory' }}>
             <Button />
@@ -80,7 +85,7 @@ export default function Vilya() {
             <div className={styles.letsgo}>
                 <h3>Learn more about Vilya</h3>
                 <div style={{
-                    width:'64vh'
+                    width: '64vh'
                 }}>
                     <AppleButton text={'Vilya playground'} />
                     <AppleButton text={'Why purely functional'} />

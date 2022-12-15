@@ -1,8 +1,13 @@
 import styles from '../styles/pagestyles/Donate.module.css'
 import Image from 'next/image'
 import Footer from '../componenets/Footer'
+import { useEffect } from 'react'
 
 export default function Donate() {
+    
+  useEffect(()=>{
+    document.title= "Elear | Donate" ;
+  },[]);
     return (<>
         <div className={styles.container}>
             <div className={styles.left}>

@@ -2,6 +2,7 @@ import styles from '../../styles/pagestyles/Olomi.module.css'
 import { motion } from 'framer-motion'
 import Footer from '../../componenets/Footer';
 import Image from 'next/image';
+import { useEffect } from 'react';
 
 const BoardOne = () => {
     return (
@@ -49,26 +50,30 @@ const Foo = () => {
             <div className={styles.foo__img}>
                 <p style={{
                     fontSize: '6vmax',
-                    textAlign:'center'
+                    textAlign: 'center'
                 }}>Get involed</p>
                 <p
                     style={{
-                        margin:'10%',
+                        margin: '10%',
                         maxWidth: '900px',
                     }}
                 ><Image src={'/work-together'} width={1619} height={1080} quality={100} alt="" layout='responsive' style={{ borderRadius: '10px' }} /></p>
             </div>
             <div className={styles.foo__left}>
-                    <AppleButton text='Try Olomi and Egace online VM' />
-                    <AppleButton text='Install Olomi OS now' />
-                    <AppleButton text='The Olomi,Narya and Egace mannual' />
-                    <AppleButton text='Develop Olomi application' />
+                <AppleButton text='Try Olomi and Egace online VM' />
+                <AppleButton text='Install Olomi OS now' />
+                <AppleButton text='The Olomi,Narya and Egace mannual' />
+                <AppleButton text='Develop Olomi application' />
             </div>
         </div>
     )
 }
 
 function Olomi() {
+
+    useEffect(() => {
+        document.title = "Elear | Olomi";
+    }, []);
     return (
         <motion.div className={styles.container}>
             <div className={styles.background}>

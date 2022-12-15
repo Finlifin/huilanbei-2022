@@ -2,6 +2,7 @@ import styles from '../../styles/pagestyles/Olomi.module.css'
 import { motion } from 'framer-motion'
 import Footer from '../../componenets/Footer';
 import Image from 'next/image';
+import { useEffect } from 'react';
 
 const BoardOne = () => {
     return (
@@ -69,6 +70,10 @@ const Foo = () => {
 }
 
 function Egace() {
+
+  useEffect(()=>{
+    document.title= "Elear | Egace";
+  },[]);
     return (
         <motion.div className={styles.container}>
             <div className={styles.background}>
