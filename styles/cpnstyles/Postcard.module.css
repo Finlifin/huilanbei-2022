@@ -1,0 +1,60 @@
+.container {
+  height: 45vh;
+  background-color: white;
+  border: 1px solid #002639;
+  padding-left: 2.5vh;
+  color: #002639;
+  margin-top: 0vh;
+}
+
+.container p {
+  max-width: 600px;
+}
+
+.right{
+  justify-self: flex-end;
+  align-self: flex-end;
+}
+.funny {
+  position: relative;
+  top: 0;
+  right: 0;
+  width: 12rem;
+  height: 12rem;
+  filter: blur(12px);
+  transition: all 0.2s;
+  visibility: collapse;
+}
+
+@media (width >= 1600px) {
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .funny {
+    visibility: visible;
+  }
+}
+
+.container p p {
+  font-family: "Fira Code";
+  font-size: 5vh;
+  letter-spacing: 0.2vw;
+}
+
+.introduction {
+  font-size: 2.2vw;
+  opacity: 0.9;
+  width: auto;
+  border-top: 1px solid #002639;
+  padding-top: 0.3em;
+}
+
+.funny:hover {
+  filter: blur(0px);
+}
+
+.logo {
+  position: relative;
+  right: 0.8vw;
+}

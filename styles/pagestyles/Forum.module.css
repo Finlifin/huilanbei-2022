@@ -1,0 +1,90 @@
+.container {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.background {
+  max-height: 60vh;
+  overflow: hidden;
+  transition: all 0.4s;
+  pointer-events: none;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__right {
+  display: flex;
+}
+.nav__right__item {
+  margin: 1vmin;
+  letter-spacing: 0.3vmin;
+  cursor: pointer;
+}
+
+.topic__container {
+  width: 100vw;
+  text-align: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.555);
+}
+
+.topic__container div {
+  font-family: "Poppins";
+  font-size: 4.5vmin;
+  width: 100%;
+}
+
+.topic__container button {
+  appearance: none;
+  background: none;
+  border: none;
+  font-size: 3rem;
+  color: white;
+  margin-left: 2rem;
+  justify-self: flex-end;
+  cursor: pointer;
+}
+
+.topic__container p {
+  font-family: "Fira Code";
+  color: rgba(255, 255, 255, 0.582);
+}
+
+.list__foot {
+  margin-top: 3vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 4vh;
+  height: auto;
+  max-width: 600px;
+  align-self: center;
+  justify-self: center;
+}
+
+.list__foot div {
+  cursor: pointer;
+  min-width: 5vh;
+  text-align: center;
+  padding: 1vh;
+  margin: 1.2vh;
+  border: 1px solid rgba(255, 255, 255, 0.781);
+  border-radius: 6px;
+}
+
+.focus{
+  text-align: center;
+  padding: 4vmin;
+  font-size: 3vh;
+  color: rgba(255, 255, 255, 0.733);
+}
+
+.focus span {
+  text-decoration: underline;
+  cursor: pointer;
+  color: white;
+}

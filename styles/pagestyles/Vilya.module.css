@@ -1,0 +1,106 @@
+.container {
+  max-width: 100vw;
+  min-height: 100vh;
+}
+
+.container section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  padding-bottom: 3vh;
+  scroll-snap-align: center;
+}
+
+.sudo {
+  z-index: 1;
+  width: 100vw;
+  height: 100%;
+  font-size: 8vmin;
+  font-family: "Poppins";
+  text-align: center;
+  position: relative;
+  top: 30vh;
+}
+.background {
+  position: relative;
+  margin: auto;
+  top: -20vh;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  max-width: 1200px;
+  z-index: 0;
+}
+
+.main {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  scroll-snap-align: center;
+}
+
+.log {
+  text-align: center;
+  font-family: "Poppins";
+  font-size: 13vmin;
+  letter-spacing: 1rem;
+}
+
+/*-----------------*\
+Here' s the styles of Page session
+\*-----------------*/
+
+.page__container {
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  font-family: "Poppins";
+  font-weight: 400;
+}
+
+.page__left {
+  margin-left: 10vw;
+  transform: translateY(-30vh);
+}
+
+.page__left h1 {
+  font-size: 7vw;
+  font-weight: 300;
+}
+
+.page__right section {
+  max-width: 700px;
+}
+
+.letsgo {
+  scroll-snap-align: center;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: 1000;
+  font-family: 'Poppins';
+  font-size: 6vmin;
+  padding: 4vmin;
+  color: rgb(255, 255, 255);
+}
+
+.letsgo div {
+  max-width: 850px;
+  padding: 30px;
+  background-color: rgba(0, 0, 0, 0.322);
+  border-radius: 10px;
+}
+ @media (width <= 900px){
+  .letsgo {
+    flex-direction: column;
+  }
+ }

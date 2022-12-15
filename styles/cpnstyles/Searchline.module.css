@@ -1,0 +1,30 @@
+.container {
+  width: 100%;
+  height: 64px;
+  margin-top: 300px;
+  display: flex;
+  justify-content: center;
+}
+
+.input {
+  appearance: none;
+  width: 75%;
+  height: 100%;
+  padding-left: 12px;
+  font-size: 24px;
+  color: white;
+  border-radius: 10px;
+  /* border: 10px solid rgba(0, 0, 0, 0.123); */
+  border: none;
+  box-shadow: 0px 0px 10px #15152a81;
+  background-color: #15152a27;
+  backdrop-filter: blur(12px);
+}
+
+.input:focus {
+  appearance: none;
+  box-shadow: none;
+  border-style: none;
+  outline: none;
+  background-color: #15152a81;
+}

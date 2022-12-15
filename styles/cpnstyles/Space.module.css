@@ -1,0 +1,49 @@
+.space {
+  width: 100vw;
+  height: 100vh;
+  /* backdrop-filter: blur(12px); */
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  display: flex;
+  /* grid: 1fr 1fr 1fr; */
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-between;
+  padding-top: 2rem;
+}
+
+.slogan{
+  color: white;
+  font-family: 'noto sans';
+  font-size: 3rem;
+  font-weight: lighter;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  border-bottom: 1px solid white;
+  margin-top: 10vh;
+  padding-bottom: 3vh;
+}
+@media (width <=1300px) {
+  .space{
+   visibility: collapse;
+  }
+
+}
+.name{
+  color: white;
+  font-family: 'accent';
+  font-size: 8rem;
+  justify-self: center;
+  letter-spacing: .2em;
+  text-align: center;
+  padding-bottom: 3vh;
+}
+
+@media (width <= 768px){
+  .name{
+    font-size: 4.4rem;
+  }
+}

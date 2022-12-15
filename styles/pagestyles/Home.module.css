@@ -1,0 +1,36 @@
+.background {
+  width: 100vw;
+  /* height: 100vh; */
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -999;
+  pointer-events: none;
+  -webkit-user-drag: none;
+  object-fit: cover;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.para {
+  padding: 2rem;
+  font-size: 2rem;
+  text-align: center;
+  background-color: #15152a;
+  color: white;
+}
+
+.viewall {
+  padding: 2rem;
+  font-size: 2rem;
+  text-align: center;
+  background-color: #15152a;
+  color: white;
+  text-decoration: underline;
+}
+
